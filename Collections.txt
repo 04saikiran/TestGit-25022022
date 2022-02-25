@@ -1,0 +1,28 @@
+1.The list implementation allows us to add the same or duplicate elements. 1)The set implementation doesn't allow us to add the same or duplicate elements.
+2.The insertion order is maintained by the List.	                   2)It doesn't maintain the insertion order of elements.
+3.List allows us to add any number of null values.	                   3)Set allows us to add at least one null value in it.
+4.The List implementation classes are LinkedList and ArrayList.	           4)The Set implementation classes are TreeSet, HashSet and LinkedHashSet.
+5.We can get the element of a specified index from the list using the      5)We cannot find the element from the Set based on the index 
+                                                                                because it doesn't provide any get method().get() method.	                                                        
+6.It is used when we want to frequently access the elements                6)It is used when we want to design a collection of distinct elements.
+by using the index.	
+7.The method of List interface listiterator() is used to iterate the List 7)The iterator is used when we need to iterate the Set elements.
+elements.
+	                                                                         
+===========================================================================================================================================================
+# Array List & Linked List
+
+1) ArrayList internally uses a dynamic array to store the elements.	    1)LinkedList internally uses a doubly linked list to store the elements.
+2) Manipulation with ArrayList is slow because it internally uses an array. 2)Manipulation with LinkedList is faster than ArrayList because it uses a doubly linked list, so no bit shifting is required in memory.
+   If any element is removed from the array, all the bits are shifted in memory.
+3) An ArrayList class can act as a list only because it implements List     3)LinkedList class can act as a list and queue both because it implements List and Deque interfaces.
+4) ArrayList is better for storing and accessing data.	                    4)LinkedList is better for manipulating data.
+==========================================================================================================================================================
+#Hashmap & Hashset
+
+1)HashMap is a hash table based implementation of Map interface.                   1)HashSet is a Set. It creates a collection that uses a hash table for storage.
+2)HashMap we store a key-value pair. It maintains the mapping of key and value.    2)In HashSet, we store objects.
+3)It does not allow duplicate keys, but duplicate values are allowed.              3)It does not allow duplicate values.
+4)It can contain a single null key and multiple null values.                       4)It can contain a single null value.
+5)HashMap is faster than HashSet because values are associated with a unique key.  5)HashSet is slower than HashMap because the member object is used for calculating hashcode value, which can be same for two objects.
+============================================================================================================================================================
